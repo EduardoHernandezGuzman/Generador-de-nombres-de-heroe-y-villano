@@ -5,9 +5,12 @@ const BotonH = () => {
         
               
 
-            <button type="button" className="btn btn-primary btn-lg m-2" onclick="window.location.reload()" >Heroe</button>  
+            <button type="button" className="btn btn-primary btn-lg m-2" onClick={() => {
+                document.querySelector("h4").innerHTML = "Hola soy un héroe";
+              }} >Heroe</button>  
            
     );
 };
 
 export default BotonH;
+
