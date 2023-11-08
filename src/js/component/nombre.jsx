@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 
 const Nombre = () => {
+    
+
     return (
         <div className="container text-center">
             <div className="row align-items-center mt-5">
@@ -12,6 +14,11 @@ const Nombre = () => {
             </div>
         </div>
     );
+
+    
+
 };
+
+
 
 export default Nombre;
