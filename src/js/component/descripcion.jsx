@@ -6,8 +6,8 @@ const Descripcion = () => {
             <div className="row align-items-center mt-5">
                 <div className="col-4"></div>
                 <div className="col-4">
-                    <q className="mt-5" id="villainDescription">
-                        Descripción
+                    <q className="mt-5" id="description">
+                        Descripción de tu personaje
                     </q>
                 </div>
                 <div className="col-4"></div>

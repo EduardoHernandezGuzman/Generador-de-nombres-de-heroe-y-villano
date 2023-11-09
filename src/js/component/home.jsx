@@ -14,13 +14,14 @@ const Home = () => {
 	  
 	return (
 		<>
+		
 			<Cabecera></Cabecera>
 			
 			<div className="container text-center">
             <div className="row align-items-center mt-5">
                 <div className="col-1"></div>
                 <div className="col-10">
-                    <h4 className="display-6" id="yourVillainName">Tu nombre</h4>
+                    <h4 className="display-3 mt-5" id="customBorderName">Tu nombre de héroe o villano</h4>
                 </div>
                 <div className="col-1"></div>
            	 </div>
@@ -34,8 +35,8 @@ const Home = () => {
 					<div className="col-3"></div>
 					<div className="col-6">
 
-						<BotonH id="botonH" ></BotonH>
-						<BotonV id="botonV" ></BotonV>
+						<BotonH></BotonH>
+						<BotonV></BotonV>
 
 					</div>
 					<div className="col-3"></div>
